@@ -1,0 +1,30 @@
+.App {
+  text-align: center;
+  font-family: Arial, sans-serif;
+}
+
+.maze {
+  display: inline-block;
+  margin: 20px auto;
+}
+
+.row {
+  display: flex;
+}
+
+.cell {
+  width: 40px;
+  height: 40px;
+  border: 1px solid #ccc;
+  background-color: white;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.cell.wall {
+  background-color: #444;
+}
+
+.cell.path {
+  background-color: limegreen;
+}
